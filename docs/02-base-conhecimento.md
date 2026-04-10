@@ -2,7 +2,7 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
+Os dados utilizados estão disponíveis na pasta `data`.
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
@@ -11,38 +11,28 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
-
 ---
 
-## Adaptações nos Dados
+## Adaptações nos Dados:
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-[Sua descrição aqui]
+Expandi os dados atualizando com novos padrões de consumo e histórico de atendimento.
 
 ---
 
 ## Estratégia de Integração
 
-### Como os dados são carregados?
-> Descreva como seu agente acessa a base de conhecimento.
+### Como os dados são carregados:
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt
 
-### Como os dados são usados no prompt?
-> Os dados vão no system prompt? São consultados dinamicamente?
+### Como os dados são usados no prompt:
 
-[Sua descrição aqui]
+A medida que o usuário vai perguntando ele vai consultando dinamicamente a base para aprofundar sua resposta.
 
 ---
 
 ## Exemplo de Contexto Montado
 
-> Mostre um exemplo de como os dados são formatados para o agente.
-
-```
 Dados do Cliente:
 - Nome: João Silva
 - Perfil: Moderado
@@ -52,4 +42,3 @@ Dados do Cliente:
 - 01/11: Supermercado - R$ 450
 - 03/11: Streaming - R$ 55
 ...
-```
