@@ -40,5 +40,5 @@ Dados do Cliente:
 
 Últimas transações:
 - 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
+- 05/11: Streaming - R$ 105,90
 ...
